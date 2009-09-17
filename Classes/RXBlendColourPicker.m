@@ -64,8 +64,14 @@
 
 
 // NSColorPickingDefault
+-(NSImage *)provideNewButtonImage {
+	NSImage *image = [[NSImage alloc] initWithContentsOfFile: [[NSBundle bundleForClass: [self class]] pathForResource: @"RXBlendColourPicker" ofType: @"tiff"]];
+	// [image setSize: NSMakeSize(32, 32)];
+	return [image autorelease];
+}
+
 -(NSString *)buttonToolTip {
-	return NSLocalizedString(@"Blend of Two Colors", nil);
+	return NSLocalizedString(@"Blend Two Colors", nil);
 }
 
 @end

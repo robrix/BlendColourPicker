@@ -11,6 +11,7 @@
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		D4C03AD01062072900925A75 /* RXBlendColourPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4C03ACF1062072900925A75 /* RXBlendColourPicker.xib */; };
 		D4C03AD31062074200925A75 /* RXBlendColourPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C03AD21062074200925A75 /* RXBlendColourPicker.m */; };
+		D4C03B25106236EA00925A75 /* RXBlendColourPicker.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4C03B24106236EA00925A75 /* RXBlendColourPicker.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D4C03ACF1062072900925A75 /* RXBlendColourPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXBlendColourPicker.xib; sourceTree = "<group>"; };
 		D4C03AD11062074200925A75 /* RXBlendColourPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBlendColourPicker.h; sourceTree = "<group>"; };
 		D4C03AD21062074200925A75 /* RXBlendColourPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBlendColourPicker.m; sourceTree = "<group>"; };
+		D4C03B24106236EA00925A75 /* RXBlendColourPicker.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RXBlendColourPicker.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				D4C03B24106236EA00925A75 /* RXBlendColourPicker.tiff */,
 				D4C03ACF1062072900925A75 /* RXBlendColourPicker.xib */,
 			);
 			path = Resources;
@@ -136,6 +139,7 @@
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
 				D4C03AD01062072900925A75 /* RXBlendColourPicker.xib in Resources */,
+				D4C03B25106236EA00925A75 /* RXBlendColourPicker.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

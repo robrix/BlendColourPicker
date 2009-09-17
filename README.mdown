@@ -1,0 +1,13 @@
+#Blend Colour Picker
+
+##A Colour Picker That Blends
+
+What did you think it would be?
+
+##Install it
+
+[Download it](http://cloud.github.com/downloads/robrix/BlendColourPicker/RXBlendColourPicker.colorPicker.zip), unzip it, and put the result into ~/Library/ColorPickers.
+
+##Use it
+
+Pick two colours to blend between, dragging both to the swatches list at the bottom of the colour panel. Then switch to the blend colour picker, drag the swatches from the list at the bottom into the wells just below the fraction. Slide the knob left and right to change the mix, or enter a number between 0 and 1 to specify a fraction directly. Voila!
