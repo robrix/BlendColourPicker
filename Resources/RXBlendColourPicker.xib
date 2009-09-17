@@ -45,13 +45,14 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSTextField" id="783051304">
 						<reference key="NSNextResponder" ref="201090302"/>
-						<int key="NSvFlags">257</int>
-						<string key="NSFrame">{{209, 60}, {39, 22}}</string>
+						<int key="NSvFlags">266</int>
+						<string key="NSFrame">{{69, 20}, {128, 19}}</string>
 						<reference key="NSSuperview" ref="201090302"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="669439095">
 							<int key="NSCellFlags">-1808662975</int>
-							<int key="NSCellFlags2">4199424</int>
+							<int key="NSCellFlags2">138417152</int>
+							<real value="0.5" key="NSContents"/>
 							<object class="NSFont" key="NSSupport">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">13</double>
@@ -63,15 +64,10 @@
 									<object class="NSArray" key="dict.sortedKeys">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<string>allowsFloats</string>
-										<string>alwaysShowsDecimalSeparator</string>
 										<string>formatterBehavior</string>
-										<string>locale</string>
+										<string>lenient</string>
 										<string>maximum</string>
-										<string>maximumFractionDigits</string>
-										<string>maximumIntegerDigits</string>
 										<string>minimum</string>
-										<string>minimumFractionDigits</string>
-										<string>negativeFormat</string>
 										<string>negativeInfinitySymbol</string>
 										<string>nilSymbol</string>
 										<string>numberStyle</string>
@@ -81,26 +77,19 @@
 									<object class="NSMutableArray" key="dict.values">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<boolean value="YES"/>
-										<boolean value="YES"/>
 										<integer value="1040"/>
-										<object class="NSLocale">
-											<string key="NS.identifier"/>
-										</object>
+										<boolean value="YES"/>
 										<real value="1"/>
-										<integer value="2"/>
-										<integer value="1"/>
 										<real value="0.0"/>
-										<integer value="2"/>
-										<string>0.00##</string>
 										<string>-∞</string>
 										<string/>
-										<integer value="0"/>
-										<string>0.00##</string>
+										<integer value="3"/>
+										<string>#,##0.##%</string>
 										<string>+∞</string>
 									</object>
 								</object>
-								<string key="NS.positiveformat">0.00##</string>
-								<string key="NS.negativeformat">0.00##</string>
+								<string key="NS.positiveformat">#,##0.##%</string>
+								<string key="NS.negativeformat">#,##0.##%</string>
 								<nil key="NS.positiveattrs"/>
 								<nil key="NS.negativeattrs"/>
 								<nil key="NS.zero"/>
@@ -127,8 +116,8 @@
 								</object>
 								<string key="NS.decimal">.</string>
 								<string key="NS.thousand">,</string>
-								<bool key="NS.hasthousands">NO</bool>
-								<bool key="NS.localized">NO</bool>
+								<bool key="NS.hasthousands">YES</bool>
+								<bool key="NS.localized">YES</bool>
 								<bool key="NS.allowsfloats">YES</bool>
 							</object>
 							<reference key="NSControlView" ref="783051304"/>
@@ -154,13 +143,13 @@
 					</object>
 					<object class="NSSlider" id="385457734">
 						<reference key="NSNextResponder" ref="201090302"/>
-						<int key="NSvFlags">258</int>
-						<string key="NSFrame">{{18, 51}, {185, 25}}</string>
+						<int key="NSvFlags">266</int>
+						<string key="NSFrame">{{20, 51}, {226, 17}}</string>
 						<reference key="NSSuperview" ref="201090302"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSSliderCell" key="NSCell" id="294824691">
 							<int key="NSCellFlags">-2079981824</int>
-							<int key="NSCellFlags2">0</int>
+							<int key="NSCellFlags2">131072</int>
 							<string key="NSContents"/>
 							<reference key="NSControlView" ref="385457734"/>
 							<double key="NSMaxValue">1</double>
@@ -175,7 +164,7 @@
 					</object>
 					<object class="NSColorWell" id="1013112029">
 						<reference key="NSNextResponder" ref="201090302"/>
-						<int key="NSvFlags">257</int>
+						<int key="NSvFlags">265</int>
 						<object class="NSMutableSet" key="NSDragTypes">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="NSArray" key="set.sortedObjects">
@@ -183,14 +172,14 @@
 								<string>NSColor pasteboard type</string>
 							</object>
 						</object>
-						<string key="NSFrame">{{157, 20}, {44, 23}}</string>
+						<string key="NSFrame">{{202, 20}, {44, 23}}</string>
 						<reference key="NSSuperview" ref="201090302"/>
 						<bool key="NSEnabled">YES</bool>
 						<reference key="NSColor" ref="447933361"/>
 					</object>
 					<object class="NSColorWell" id="499657519">
 						<reference key="NSNextResponder" ref="201090302"/>
-						<int key="NSvFlags">260</int>
+						<int key="NSvFlags">268</int>
 						<object class="NSMutableSet" key="NSDragTypes">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="NSArray" key="set.sortedObjects">
@@ -204,7 +193,7 @@
 						<reference key="NSColor" ref="385430944"/>
 					</object>
 				</object>
-				<string key="NSFrameSize">{268, 94}</string>
+				<string key="NSFrameSize">{266, 93}</string>
 				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -318,8 +307,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="385457734"/>
-							<reference ref="499657519"/>
 							<reference ref="1013112029"/>
+							<reference ref="499657519"/>
 							<reference ref="783051304"/>
 						</object>
 						<reference key="parent" ref="0"/>
@@ -398,13 +387,13 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{1120, 447}, {268, 94}}</string>
+					<string>{{1120, 448}, {266, 93}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1040"/>
 					<boolean value="YES"/>
-					<real value="0.24099999999999999"/>
+					<real value="0.45123000000000002"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
