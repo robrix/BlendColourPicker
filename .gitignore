@@ -1,0 +1,4 @@
+*.tmproj
+build
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode*
