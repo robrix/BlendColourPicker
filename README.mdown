@@ -6,7 +6,7 @@ What did you think it would be?
 
 ##Install it
 
-[Download it](http://cloud.github.com/downloads/robrix/BlendColourPicker/RXBlendColourPicker.colorPicker.zip), unzip it, and put the result into ~/Library/ColorPickers.
+[Download it](http://cloud.github.com/downloads/robrix/BlendColourPicker/RXBlendColourPicker.colorPicker_v1.0.zip), unzip it, and put the result into ~/Library/ColorPickers.
 
 ##Use it
 
