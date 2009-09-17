@@ -2,7 +2,7 @@
 // Created by Rob Rix on 2009-09-17
 // Copyright 2009 Monochrome Industries
 
-@interface RXBlendColourPicker : NSColorPicker {
+@interface RXBlendColourPicker : NSColorPicker <NSColorPickingCustom> {
 	IBOutlet NSView *view;
 	NSColor *fromColour, *toColour;
 	CGFloat fraction;
